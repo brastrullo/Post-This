@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <title>Post-This</title>
+</head>
+<body>
+  <header>
+    <nav class="main-menu">
+      <ul class="flex-wrapper">
+        <li><a href="#">Search</a></li>
+        <li><a href="#">Settings</a></li>
+      </ul>
+    </nav> 
+  </header>
+  <div class="note-select controls hidden">
+    <svg class="select-toggle-icon"></svg>
+    <svg class="deselect-all-icon"></svg>
+    <svg class="add-note-icon"></svg>
+    <svg class="edit-note-icon"></svg>
+    <svg class="delete-note-icon"></svg>
+    <svg class="add-tag-icon"></svg>
+    <svg class="edit-tag-icon hidden "></svg>
+  </div>
+  <div class="edit-post flex-wrapper">
+    <form class="edit-view">
+      <h1><span>Title</span></h1>
+      <textarea class="post" name="post"></textarea><br>
+      <input class="post-button" type="submit" value="Post-This!">
+    </form>
+  </div>
+  <section class="notes-posted">
+  <div class="flex-wrapper">
+    <ul class="notes-list">
+    </ul>
+  </div>
+  </section>
+</body>
+</html>
